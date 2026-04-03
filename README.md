@@ -51,11 +51,7 @@ It combines the experience of:
 - Scene-by-scene breakdown
 - Prompt-to-visual conversion
 
-#### 🎥 Video Prompt Generator
-- AI-generated prompts for tools like:
-  - Runway
-  - Pika
-  - Sora-style workflows
+
 
 ---
 
