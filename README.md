@@ -1,36 +1,169 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Vizzy Chat  
+### *AI-Powered Creative Assistant for Visual, Narrative & Experiential Content*
 
-## Getting Started
+---
 
-First, run the development server:
+## 🌟 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Vizzy Chat** is a modern, multi-modal AI web application that transforms natural language into **visuals, stories, and creative assets** through a conversational interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It combines the experience of:
+- 💬 ChatGPT (conversation)
+- 🎨 Midjourney (visual generation)
+- 🧠 Notion + Canva (creation & editing)
+- 🍎 Apple-level minimal UI (premium feel)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 Think of it as: **“Jarvis for Creativity”**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+### 💬 1. Conversational Interface
+- Full-screen chat UI
+- Sidebar with chat history
+- User vs AI chat bubbles
+- Floating input box (text + image upload + voice-ready)
+- Smooth typing animations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🎨 2. Multi-Modal AI Capabilities
 
-## Deploy on Vercel
+#### 🖼️ Image Generation
+- Generate 2–4 variations per prompt
+- Grid-based layout
+- Actions:
+  - Regenerate
+  - Refine
+  - Remix
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### 🎭 Image Transformation
+- Upload image and apply styles:
+  - Renaissance
+  - Anime
+  - Cinematic
+  - Dreamlike
+- Before/After comparison slider
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### 📝 Story & Text Generation
+- Emotional storytelling
+- Scene-by-scene breakdown
+- Prompt-to-visual conversion
+
+#### 🎥 Video Prompt Generator
+- AI-generated prompts for tools like:
+  - Runway
+  - Pika
+  - Sora-style workflows
+
+---
+
+### 🧠 3. Smart Intent Detection
+Automatically classifies prompts into:
+- Image Generation
+- Image Editing
+- Storytelling
+- Marketing Content
+- Moodboard Creation
+
+---
+
+### 🔁 4. Iterative Refinement
+Each response includes quick actions:
+- Make more cinematic
+- Make more minimal
+- Make more emotional
+- Try different style
+- Refine output
+
+---
+
+### 🧬 5. Memory System
+- Stores user preferences:
+  - Styles
+  - Tone
+  - Colors
+- Personalizes future responses
+- Uses local storage / backend DB
+
+---
+
+### 🔀 6. Mode Toggle
+
+#### 🏠 Home Mode
+- Dream art
+- Vision boards
+- Emotional visuals
+- Stories
+
+#### 🏢 Business Mode
+- Marketing creatives
+- Product posters
+- Branding kits
+- Social media designs
+
+---
+
+### 🧩 7. Dynamic Output Rendering
+
+Outputs adapt based on intent:
+- 🖼️ Image Grid
+- 📖 Story Cards
+- 📢 Poster Mockups
+- 📱 Social Media Previews
+- 🎬 Video Storyboards
+
+---
+
+## 🔥 Advanced Features
+
+- ✨ Smart Prompt Suggestions
+- 🧩 Multi-image selection
+- 🔄 Remix previous outputs
+- 📤 Export (download, copy prompt, share mock)
+- 🖥️ Split-screen preview (Chat + Output)
+- ⏳ Intelligent loading messages:
+  - “Painting your imagination…”
+  - “Designing something magical…”
+
+---
+
+## 🧠 Bonus: Creative Brain Panel
+
+Displays:
+- Detected intent
+- Applied style
+- AI reasoning behind output
+
+---
+
+## 🎨 UI / UX Highlights
+
+- 🌙 Dark mode (default)
+- Glassmorphism design
+- Smooth animations (Framer Motion)
+- Rounded corners (2xl)
+- Gradient accents
+- Skeleton loaders
+- Floating input UI
+- Premium, minimal aesthetic
+
+---
+
+## ⚙️ Tech Stack
+
+### Frontend
+- **Next.js (App Router)**
+- **Tailwind CSS**
+- **Framer Motion**
+
+### Backend
+- **Node.js / Next.js API Routes**
+- **OpenAI API (Text + Images)**
+
+### State Management
+- Zustand / Context API
+
+---
+
